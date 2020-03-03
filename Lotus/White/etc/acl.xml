@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Adminhtml::admin" title="Magento Admin">
+                <resource id="Magento_Adminhtml::stores"  title="Magento Stores">
+                    <resource id="Magento_Adminhtml::stores_settings"  title="Magento Settings">
+                        <resource id="Magento_Adminhtml::config" title="Mageplaza Config">
+                            <resource id="Lotus_White::test_config" title="Hello World Section" />
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
